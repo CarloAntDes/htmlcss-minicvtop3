@@ -5,40 +5,45 @@
 
 body {
   background: lightgrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+  background: grey;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.layout:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .bck {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-}
-
-.contain {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 1000px;
-  width: 1000px;
-  background: grey;
-}
-
-.contain:after {
-  clear:both;
-  content: '';
-  display: table;
+  background: white;
+  border-radius: 2px;
 }
 
 header {
-  background: white;
-  height: 200px;
-  width: 400px;
   float: left;
+  width: 40%;
 }
 
 main {
-  background: white;
-  height: 200px;
-  width: 400px;
   float: right;
+  width: 60%;
+}
+
+.up, .down {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.up img {
+  width: 70px;
+  border-radius: 60px;
 }
