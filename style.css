@@ -26,16 +26,19 @@ body {
   display: table;
 }
 
-.up {
+header {
   background: white;
   height: 200px;
   width: 400px;
   float: left;
+
 }
 
-.down {
+main {
   background: white;
   height: 200px;
   width: 400px;
-  float: left;
+  float: right;
+
+
 }
